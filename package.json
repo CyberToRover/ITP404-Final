@@ -1,0 +1,52 @@
+{
+  "name": "starlink",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5432",
+  "dependencies": {
+    "@ant-design/icons": "^4.3.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "antd": "^3.26.18",
+    "axios": "^0.19.2",
+    "d3-geo": "^1.12.1",
+    "d3-geo-projection": "^2.9.0",
+    "d3-scale": "^3.2.1",
+    "d3-scale-chromatic": "^1.5.0",
+    "d3-selection": "^1.4.2",
+    "d3-time-format": "^2.2.3",
+    "js-cookie": "^2.2.1",
+    "json-server": "^0.16.3",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-route": "^1.0.3",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "topojson-client": "^3.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "json-server-dev": "nodemon mock-api/server.js",
+    "json-server-prod": "node mock-api/server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

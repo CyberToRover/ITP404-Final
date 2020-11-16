@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "email": "zhongyu@usc.edu",
+      "password": "12345",
+      "id": 1
+    }
+  ],
+  "user": [],
+  "login": [
+    {
+      "email": "zhongyu@usc.edu",
+      "password": "12345",
+      "id": 1
+    }
+  ],
+  "logout": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    }
+  ]
+}
