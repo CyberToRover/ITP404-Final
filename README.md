@@ -29,6 +29,9 @@
 
   - JSON Server URL on Heroku: [https://zhongyuli-itp404-final.herokuapp.com/api/users](https://zhongyuli-itp404-final.herokuapp.com/api/users)
 
+- StarLink-API on Heroku deployment site: [https://dashboard.heroku.com/apps/zhongyuli-starlink-api](https://dashboard.heroku.com/apps/zhongyuli-starlink-api)
+
+
 ---
 ### **Instruction**:
 Open Netlify domain and JSON Server URL on Heroku to check all the functions of the application.
