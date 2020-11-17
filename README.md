@@ -20,9 +20,7 @@ While [Starlink](https://www.starlink.com) is a satellite internet constellation
 
 ## The Application files in *src* folder:
 
-- The components for this project are all included in the *components* folder. 
-<br>
-The main functions for the application could be generally separated for the following parts:
+- The components for this project are all included in the *components* folder. The main functions for the application could be generally separated for the following parts:
 
   - World Map visualization in **WorldMap.js**
   - Satellite settings (list, time and duration) in **SatSetting.js** and **SatelliteList.js**
