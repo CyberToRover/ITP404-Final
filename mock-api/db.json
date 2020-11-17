@@ -4,6 +4,11 @@
       "email": "zhongyu@usc.edu",
       "password": "12345",
       "id": 1
+    },
+    {
+      "email": "mrcarlos9500@gmail.com",
+      "password": "112233",
+      "id": 2
     }
   ],
   "user": [],
@@ -23,9 +28,6 @@
     },
     {
       "id": 3
-    },
-    {
-      "id": 4
     }
   ]
 }

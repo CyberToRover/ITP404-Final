@@ -12,7 +12,7 @@ import {Spin} from "antd";
 
 import { WORLD_MAP_URL,SAT_API_KEY, SATELLITE_POSITION_URL } from "../constants";
 
-// 地图的宽和高
+// width and height for the map
 const width = 960;
 const height = 600;
 
@@ -30,11 +30,11 @@ class WorldMap extends Component {
     }
 
     componentDidMount() {
-        // generate map (在DidMount Lifecycle中)
+        // generate map (in DidMount Lifecycle)
         axios.get(WORLD_MAP_URL)
             .then(res => {
                 const { data } = res;
-                // 通过topojson-client的feature提取各种国家的countries(地界)信息赋给land
+                // extract features of the landscape of each country through topojson-client
                 const land = feature(data, data.objects.countries).features;
                 this.generateMap(land);
             })
@@ -79,7 +79,7 @@ class WorldMap extends Component {
             context.lineWidth = 0.1;
             context.stroke();
 
-            // 作出经纬度后outline显示出地图的上下边界和更清晰地显示出国家间的界限
+            // show the edges of each country and the boundaries and outline of the world map after drawing lat and long
             context.beginPath();
             context.lineWidth = 0.5;
             path(graticule.outline());
