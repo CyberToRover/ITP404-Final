@@ -12,7 +12,7 @@ Generally, this project is an application that provides **satellite tracking and
 
 The satellite data or API used in this project are from [N2YO.COM](https://www.n2yo.com), which provides real time tracking and pass predictins of satellites with orbital paths and footprints overlaid on Google Maps.
 
-While [Starlink](https://www.starlink.com) is a satellite internet constellation constructed by SpaceX providing satellite Internet access. The constellation consists thousands of mass-produced small satellites in low erath orbit. My application focused on providing tracking and viewing service for these satellites.
+While [Starlink](https://www.starlink.com) is a satellite internet constellation constructed by SpaceX providing satellite Internet access. The constellation consists thousands of mass-produced small satellites in low Earth orbit. My application focused on providing tracking and viewing service for these satellites.
 
 <br>
 
@@ -79,6 +79,10 @@ The main functions for the application could be generally separated for the foll
 ### *3. ITP404 Final Demo (StarLink)*
 
 - Final Project Demo Video URL:
+  - Google Drive: [https://drive.google.com/drive/u/0/folders/1WXOCdK3kCuvhRMBOFeZM4wTuBypk-h8E](https://drive.google.com/drive/u/0/folders/1WXOCdK3kCuvhRMBOFeZM4wTuBypk-h8E)
+
+  - Youtube: 
+  
 
 
 ---
