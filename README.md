@@ -56,6 +56,7 @@ While [Starlink](https://www.starlink.com) is a satellite internet constellation
 - JSON Server API on Heroku deployment site: [https://zhongyuli-itp404-final.herokuapp.com/](https://zhongyuli-itp404-final.herokuapp.com/) 
 
   - JSON Server URL on Heroku: 
+  
      - Users JSON: [https://zhongyuli-itp404-final.herokuapp.com/api/users](https://zhongyuli-itp404-final.herokuapp.com/api/users)
   
      - Login JSON: [https://zhongyuli-itp404-final.herokuapp.com/api/login](https://zhongyuli-itp404-final.herokuapp.com/api/login)
@@ -76,9 +77,11 @@ While [Starlink](https://www.starlink.com) is a satellite internet constellation
 
 ### *3. ITP404 Final Demo (StarLink)*
 
-- Final Project Demo Video URL:
+- Final Project Demo Video YouTube URL:
   
-  - YouTube: [https://youtu.be/DHrBcrDRd3s](https://youtu.be/DHrBcrDRd3s)
+  - Basic version: [https://youtu.be/DHrBcrDRd3s](https://youtu.be/DHrBcrDRd3s)
+  
+  - Longer version: [https://youtu.be/Olw8YEEffF4](https://youtu.be/Olw8YEEffF4)
 
 
 ---
