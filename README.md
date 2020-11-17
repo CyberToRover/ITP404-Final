@@ -10,7 +10,7 @@ Generally, this project is an application that provides **satellite tracking and
 
 ### *Resources*
 
-The satellite data or API used in this project are from N2YO.COM, which provides real time tracking and pass predictins of satellites with orbital paths and footprints overlaid on Google Maps.
+The satellite data or API used in this project are from [N2YO.COM](https://www.n2yo.com), which provides real time tracking and pass predictins of satellites with orbital paths and footprints overlaid on Google Maps.
 
 While [Starlink](https://www.starlink.com) is a satellite internet constellation constructed by SpaceX providing satellite Internet access. The constellation consists thousands of mass-produced small satellites in low erath orbit. My application focused on providing tracking and viewing service for these satellites.
 
@@ -30,7 +30,7 @@ The main functions for the application could be generally separated for the foll
   - Custom form validation in **Signup.js**, **Login.js**, **Navigation.js**, **auth.js** and **context.js**
   - Other includes 404 no match page in **NoMatch.js** and page design in **Header.js** and **Footer.js** 
 
-- Any KEY or Base URL of the N2YO.COM REST API v1 accessed from [https://www.n2yo.com](https://www.n2yo.com) with a registered account to provide data to build this real time satellite tracking application are all included in **constant.js**. (outside the *components* folder)
+- Any KEY or Base URL of the N2YO.COM REST API v1 accessed from [N2YO.COM](https://www.n2yo.com) with a registered account to provide data to build this real time satellite tracking application are all included in **constant.js**. (outside the *components* folder)
 
 - The CSS style files are all included in the *styles* folder.
 
