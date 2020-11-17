@@ -87,6 +87,14 @@ Open Netlify domain and JSON Server URL on Heroku to check all the functions of 
 
 <br>
 
+### **Notes**:
+During doing the project, the Base URL for REST API provided by [N2YO.COM](https://www.n2yo.com) has changed and the new Base URL is now  https://api.n2yo.com/rest/v1/satellite/. (Check this website [https://www.n2yo.com/api/#positions](https://www.n2yo.com/api/#positions)) Thus, the **SAT_BASE_URL** constant in **constant.js** is also updated accordingly and this is the only update configuration for N2YO.COM REST API v1. However, this still could cause some CORS Error for the application. To fix that, before running React App in Chrome, install the Allow-Control-Allow-Origin plugin, i.e. install [moesif CORS extension](https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc?hl=en-US) through Chrome Web Store and activate the extension (turn the icon from "off" to "on", showing below). And everything will go well then.
+
+![Config_ahead_all](Config_ahead_all.png)
+
+
+<br>
+
 ---
 ## Screenshots of some results in application:
 
